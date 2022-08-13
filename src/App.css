@@ -16,6 +16,14 @@ h1 {
   color: #0290ff;
 }
 
+h2 {
+  color:#121212;
+}
+
+h6 {
+  color : #4386bf;
+  size: 0.875rem;
+}
 .link {
   padding-left: 20px;
   color: #121212;
@@ -26,7 +34,7 @@ h1 {
 }
 
 .page-container {
-  background-color: #fff;
+  background-color:  #fafafa;
   padding: 40px;
   border-radius: 5px;
   margin-top: 20px;
