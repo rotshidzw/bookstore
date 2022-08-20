@@ -15,7 +15,7 @@ const Categories = () => {
   return (
     <>
       <h2 className="header"> </h2>
-      <button type="button" onClick={performCheck}>Check status</button>
+      <button type="button" className="primary-button" onClick={performCheck}>Check status</button>
     </>
   );
 };

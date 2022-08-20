@@ -21,10 +21,20 @@ function Books() {
 
   return (
     <>
-      {Books.map((m) => <Book key={m.id} id={m.id} name={m.name} author={m.author} />)}
+      <ul className="books">
+        {Books.map((m) => (
+          <Book
+            key={m.id}
+            id={m.id}
+            name={m.name}
+            author={m.author}
+            category={m.category}
+          />
+        ))}
+      </ul>
+      <div className="horizontal-divider" />
       <AddBook />
     </>
-
   );
 }
 
