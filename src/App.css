@@ -1,0 +1,42 @@
+body {
+  background-color: #dfdfdf;
+  margin: 10%;
+  text-align: center;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #0290ff;
+}
+
+h2 {
+  color: #121212;
+}
+
+h6 {
+  color: #4386bf;
+  font-size: 0.875rem;
+}
+
+.link {
+  padding-left: 20px;
+  color: #121212;
+}
+
+.icon-button {
+  margin-left: auto;
+}
+
+.page-container {
+  background-color: #fafafa;
+  padding: 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
