@@ -1,10 +1,10 @@
-const CHECK = 'bookstore/categories/CHECK';
+const check = 'bookstore/categories/check';
 
 // Reducer
 export default function categoriesReducer(state = [], action = {}) {
   switch (action.type) {
     // do reducer stuff
-    case CHECK:
+    case check:
       return 'Under Constuction';
     default:
       return state;
@@ -13,5 +13,5 @@ export default function categoriesReducer(state = [], action = {}) {
 
 // Action Creators
 export function checkCategories() {
-  return { type: CHECK };
+  return { type: check };
 }
