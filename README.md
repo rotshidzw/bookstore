@@ -1,56 +1,55 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# rotshidzwa chester Bookstore
 
-> Description the project.
-
+> chester Bookstore is an MVP (minimum viable product) version Web App that allows the user to:
+> - Display a list of books
+> - Add a book
+> - Remove a selected book
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React
+- Redux
+- JavaScript (ES6+)
+- CSS
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+:fire::fire: https://github.com/rotshidzw/bookstore/ :fire::fire:
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps:
 
 ### Prerequisites
 
+- Node.js
+- npm
+
 ### Setup
 
-### Install
+- Clone the project
+```terminal
+git clone https://github.com/rotshidzw/bookstore.git
+```
 
-### Usage
+- cd into the project directory
+```terminal
+cd bookstore-react
+```
 
-### Run tests
+- Once you've cloned the repo and are inside the directory, run `npm install` command to get all necessary installations.
 
-### Deployment
+- **Yep, that's it!** you are now all set and simply run `npm start` to get your clone up and running on the browser.
 
+## Author
 
+👤 **rotshidzwa chester**
+- GitHub: [@rotshidzw](https://github.com/rotshidzw)
+- Twitter: [@rotshidzwamavh1](https://twitter.com/rotshidzwamavh1)
+- LinkedIn: [rotshidzwa mavhungu](https://www.linkedin.com/in/rochidzwa-chester-8062b6211/)
 
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -66,10 +65,8 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- etc.
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
