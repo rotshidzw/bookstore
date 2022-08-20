@@ -1,4 +1,6 @@
-import { useDispatch, useSelector, shallowEqual } from 'react-redux';
+import {
+  useDispatch, useSelector, shallowEqual,
+} from 'react-redux';
 import { checkCategories } from '../redux/categories/categories';
 
 const Categories = () => {

@@ -1,5 +1,6 @@
 import { useDispatch } from 'react-redux';
-import { addBook as add } from '../redux/books/books';
+import { v4 as rid } from 'uuid';
+import { addBook } from '../redux/books/books';
 
 const AddBook = () => {
   const dispatch = useDispatch();
@@ -7,7 +8,14 @@ const AddBook = () => {
     e.preventDefault();
     const title = e.target[0].value;
     const author = e.target[1].value;
-    dispatch(add(title, author));
+    const iid = rid();
+    const book = {
+      id: iid,
+      name: title,
+      author,
+      category: 'not categorized yet',
+    };
+    dispatch(addBook(book));
   };
   return (
     <section>
